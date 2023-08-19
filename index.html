@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,48 @@
     <title>Online News App</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+    <!-- nav bar  -->
     <nav>
-        <div class="main-nav">
-            <a href="#">
+        <div class="main-nav container flex">
+            <a href="#" class="company-logo">
                 <img src="./image/logo-2.png" alt="company logo">
             </a>
             <div class="nav-links">
-                <ul>
+                <ul class="flex">
                     <li class="hover-links nav-items">IPL</li>
                     <li class="hover-links nav-items">FINANCE</li>
                     <li class="hover-links nav-items">POLITICS</li>
                 </ul>
             </div>
-            <div class="search-bar">
-                <input type="text" class="new-iput" placeholder="e.g Science">
+            <div class="search-bar flex">
+                <input type="text" class="news-input" placeholder="e.g Science">
                 <button class="search-button">SEARCH</button>
             </div>
         </div>
     </nav>
-    <main></main>
+    <!-- main new latter dislay container -->
+    <main>
+        <div class="card-container container flex">
+
+        </div>
+        <template id="template-news-card">
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com/400x200" alt="news-image" id="new-image">
+                </div>
+                <div class="card-content">
+                    <h3 id="newss-title">This is the tittle </h3>
+                    <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                    <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione
+                        cumque!</p>
+                </div>
+            </div>
+        </template>
+    </main>
     <link rel="stylesheet" href="./script.js">
 </body>
+
 </html>

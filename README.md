@@ -1,6 +1,4 @@
-# Online-News-App
-
-# NewsHome-Api-App-Project
+# Online-News-App Project
 
 This is a simple API integrated news application where the news will be updated by time to time and gives you updated news on the go.
 

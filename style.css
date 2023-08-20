@@ -79,6 +79,9 @@ nav {
 .hover-links:active {
     color: red;
 }
+.nav-items.active{
+    color: var(--accent-color);
+}
 
 /* search bar  */
 .search-bar {
